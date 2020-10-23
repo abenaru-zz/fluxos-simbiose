@@ -1,0 +1,187 @@
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 0 - 0 - public ClientContext getClientContext() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 1 - 0 - public AlluxioConfiguration getClusterConf() - alluxio/ClientContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 2 - 1 - public AlluxioConfiguration getClusterConf() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 3 - 0 - public ClientContext getClientContext() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 4 - 0 - public UserState getUserState() - alluxio/ClientContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 5 - 0 - public Object get() - alluxio/DefaultSupplier.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 6 - 0 - public Object get() - alluxio/DefaultSupplier.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 7 - 0 - static PropertyKey access$4(final NetworkAddressUtils$ServiceType arg0) - alluxio/util/network/ServiceType.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 8 - 0 - public Object get() - alluxio/DefaultSupplier.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 9 - 3 - public static int getPort(final NetworkAddressUtils$ServiceType service, final AlluxioConfiguration conf) - alluxio/util/network/NetworkAddressUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 10 - 0 - public Object get() - alluxio/DefaultSupplier.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 11 - 0 - static PropertyKey access$2(final NetworkAddressUtils$ServiceType arg0) - alluxio/util/network/ServiceType.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 12 - 0 - static PropertyKey access$2(final NetworkAddressUtils$ServiceType arg0) - alluxio/util/network/ServiceType.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 13 - 0 - public static String getConnectHost(final NetworkAddressUtils$ServiceType service, final AlluxioConfiguration conf) - alluxio/util/network/NetworkAddressUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 14 - 0 - static PropertyKey access$4(final NetworkAddressUtils$ServiceType arg0) - alluxio/util/network/ServiceType.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 15 - 0 - public Object get() - alluxio/DefaultSupplier.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 16 - 1 - public static int getPort(final NetworkAddressUtils$ServiceType service, final AlluxioConfiguration conf) - alluxio/util/network/NetworkAddressUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 17 - 1 - public static InetSocketAddress getConnectAddress(final NetworkAddressUtils$ServiceType service, final AlluxioConfiguration conf) - alluxio/util/network/NetworkAddressUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 18 - 2 - public static List<InetSocketAddress> getMasterEmbeddedJournalAddresses(final AlluxioConfiguration conf) - alluxio/util/ConfigurationUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 19 - 3 - public static List<InetSocketAddress> getEmbeddedJournalAddresses(final AlluxioConfiguration conf, final NetworkAddressUtils$ServiceType serviceType) - alluxio/util/ConfigurationUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 20 - 0 - private static InetSocketAddress lambda$0(final int arg0, final InetSocketAddress addr) - alluxio/util/ConfigurationUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 21 - 1 - public static List<R> map(final Function<T, R> f, final Collection<T> collection) - alluxio/util/StreamUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 22 - 1 - private static List<InetSocketAddress> overridePort(final List<InetSocketAddress> addrs, final int port) - alluxio/util/ConfigurationUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 23 - 9 - public static List<InetSocketAddress> getMasterRpcAddresses(final AlluxioConfiguration conf) - alluxio/util/ConfigurationUtils.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 24 - 9 - public static MasterInquireClient create(final AlluxioConfiguration conf, final UserState userState) - alluxio/master/Factory.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 25 - 0 - public InetSocketAddress getAddress() - alluxio/master/SingleMasterConnectDetails.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 26 - 1 - public InetSocketAddress getPrimaryRpcAddress() - alluxio/master/SingleMasterInquireClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 27 - 0 - public InetSocketAddress getAddress() - alluxio/master/SingleMasterConnectDetails.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 28 - 0 - public List<InetSocketAddress> getMasterRpcAddresses() - alluxio/master/SingleMasterInquireClient.java
+
+All masters: [localhost:19998]
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 29 - 12 - public int run(final CommandLine cl) - alluxio/cli/fs/command/MasterInfoCommand.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 30 - 13 - public int run(final CommandLine cl) - alluxio/cli/fs/command/MasterInfoCommand.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 31 - 17 - public transient int run(final String[] argv) - alluxio/cli/AbstractShell.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 32 - 1 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 33 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 34 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 35 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 36 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 37 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 38 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 39 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 40 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 41 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 42 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 43 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 44 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 45 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 46 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 47 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 48 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 49 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 50 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 51 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 52 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 53 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 54 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 55 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 56 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 57 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 58 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 59 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 60 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 61 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 62 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 63 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 64 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 65 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 66 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 67 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 68 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 69 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 70 - 0 - public synchronized void disconnect() - alluxio/AbstractClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 71 - 1 - public synchronized void close() - alluxio/AbstractClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 72 - 1 - public synchronized void close() - alluxio/client/file/ConfigHashSync.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 73 - 1 - public void close() - alluxio/client/file/FileSystemContextReinitializer.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 74 - 0 - private synchronized void closeContext() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 75 - 2 - public synchronized void close() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 76 - 3 - public synchronized void close() - alluxio/client/file/BaseFileSystem.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 77 - 4 - public void close() - alluxio/cli/fs/command/CopyFromLocalCommand.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 78 - 0 - public synchronized void disconnect() - alluxio/AbstractClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 79 - 0 - public synchronized void close() - alluxio/AbstractClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 80 - 0 - public void close() - alluxio/cli/fs/command/DistributedLoadCommand.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 81 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 82 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 83 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 84 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 85 - 0 - public void close() - alluxio/cli/Command.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 86 - 0 - public synchronized void disconnect() - alluxio/AbstractClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 87 - 1 - public synchronized void close() - alluxio/AbstractClient.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 88 - 1 - public synchronized void close() - alluxio/client/file/ConfigHashSync.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 89 - 1 - public void close() - alluxio/client/file/FileSystemContextReinitializer.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 90 - 0 - private synchronized void closeContext() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 91 - 1 - public synchronized void close() - alluxio/client/file/FileSystemContext.java
+
+DEBUG - FsMasterInfoFlow - 8446883901518334865 - 92 - 13 - public void close() - alluxio/cli/AbstractShell.java
+
